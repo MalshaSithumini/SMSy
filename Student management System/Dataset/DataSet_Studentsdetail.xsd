@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_Studentsdetail" targetNamespace="http://tempuri.org/DataSet_Studentsdetail.xsd" xmlns:mstns="http://tempuri.org/DataSet_Studentsdetail.xsd" xmlns="http://tempuri.org/DataSet_Studentsdetail.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_Studentsdetail" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet_Studentsdetail" msprop:Generator_UserDSName="DataSet_Studentsdetail">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="StudentDetail" msprop:Generator_TableClassName="StudentDetailDataTable" msprop:Generator_TableVarName="tableStudentDetail" msprop:Generator_TablePropName="StudentDetail" msprop:Generator_RowDeletingName="StudentDetailRowDeleting" msprop:Generator_RowChangingName="StudentDetailRowChanging" msprop:Generator_RowEvHandlerName="StudentDetailRowChangeEventHandler" msprop:Generator_RowDeletedName="StudentDetailRowDeleted" msprop:Generator_UserTableName="StudentDetail" msprop:Generator_RowChangedName="StudentDetailRowChanged" msprop:Generator_RowEvArgName="StudentDetailRowChangeEvent" msprop:Generator_RowClassName="StudentDetailRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Student_Name" msprop:Generator_ColumnVarNameInTable="columnStudent_Name" msprop:Generator_ColumnPropNameInRow="Student_Name" msprop:Generator_ColumnPropNameInTable="Student_NameColumn" msprop:Generator_UserColumnName="Student_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Mobile_No" msprop:Generator_ColumnVarNameInTable="columnMobile_No" msprop:Generator_ColumnPropNameInRow="Mobile_No" msprop:Generator_ColumnPropNameInTable="Mobile_NoColumn" msprop:Generator_UserColumnName="Mobile_No" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
